@@ -34,7 +34,7 @@ const Login = () => {
         <label className='block text-sm font-medium mb-1'>Email </label>
           <input 
           type="email" 
-          placeholder="Email or Username" 
+          placeholder="Email " 
           className="auth-input"
           value={email}
           onChange={(e)=> setEmail(e.target.value)}
